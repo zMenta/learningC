@@ -6,6 +6,7 @@ int main(void){
 	int input1;
 
 	// Square-number validator
+	// Returns 1 with the second value is the square number of the first input.
 	printf("Please type a sequence of numbers, type 0 to end the sequence.\n");
 
 	do{
