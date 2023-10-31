@@ -7,22 +7,18 @@
 
 int main(void){
 	int sum = 0;
-	int index = 1;
-	int value;
-	int last_value = 0;
+	int index = 0;
+	int value = 0;
+	int last_value;
 
-	printf("Type a value:\n");
-	scanf("%d", &value);
-	sum += value;
-	while (last_value != value*2 && last_value != value/2) {
+	do {
 		last_value = value;
-
 		printf("Type a value:\n");
 		scanf("%d", &value);
 
 		sum += value;
 		index++;
-	}
+    } while (last_value != value*2 && last_value != value/2);
 
 	printf("Num of values: %d\n", index);
 	printf("Sum: %d\n", sum);
