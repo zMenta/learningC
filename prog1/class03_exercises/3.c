@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-// Exercise, type N, return the first N perfect values.
+// Exercise:
+// Type N, return the first N perfect values.
 
 int main(void){
 	int input;
